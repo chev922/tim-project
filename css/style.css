@@ -1,0 +1,235 @@
+/* ======BASIC STYLES====== */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fdfdff;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
+}
+
+.logo:active,
+.accent:active {
+  color: #404bbf;
+}
+
+.accent {
+  color: #2e2f42;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ======/BASIC STYLES END====== */
+
+/* .page-header {
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+} */
+
+/* =======1 video baner======= */
+.order-service-wraper {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-screan-body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* z-index: 2;
+  flex: 1 1 auto; */
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.full-screan-title,
+.ord-ser-ban-title,
+.order-button {
+  position: relative;
+  z-index: 3;
+}
+
+.ord-ser-ban-title {
+  color: rgb(255, 254, 254);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 48px;
+}
+
+.order-button {
+  /* position: fixed; */
+  top: 50%;
+  left: 50%;
+  padding: 16px 32px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  outline: none;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 2.2);
+}
+
+.order-button span {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(10, 10, 10);
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.order-button:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.full-screan-video {
+  position: absolute;
+  width: 1440px;
+  height: 810px; /* 16:9 */
+  object-fit: cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.full-screan-body::before {
+  content: "";
+  position: absolute;
+  width: 1440px;
+  height: 810px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(48, 43, 43, 0.623);
+  z-index: 2;
+}
+/* =======1 video baner end======= */
+
+/* =======Section 2 ========== */
+.section-about {
+  background-color: #f4f4fd;
+}
+.about-cont {
+  /* position: relative; */
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+.about-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.about-desc {
+  width: 500px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: black;
+  padding-right: 25px;
+}
+
+.img-profile {
+  max-width: 320px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* =======Section 2 end ========== */

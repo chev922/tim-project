@@ -4,10 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tim-project</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
 </head>
 
 <body>
+    <header class="page-header">
+        <nav>
+            <a class="logo link" href="./index.html">Tim<span class="accent">Klima</span></a>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Oferta</a></li>
+                <li><a href="">Realizacje</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-menu-open-btn" type="button">
+            <svg class="mobile-menu-open-btn-icon" width="24" height="24" aria-label="mobile menu open icon">
+                <use href="./images/icons.svg#icon-mob-menu-btn"></use>
+            </svg>
+        </button>
+        <address class="top-address">
+            <ul class="menu-address list">
+                <li class="menu-address-item">
+                    <a class="menu-address-link link"
+                        href="mailto:tymofij.szkarupa@gmail.com">tymofij.szkarupa@gmail.com</a>
+                </li>
+                <li class="menu-address-item">
+                    <a class="menu-address-link link" href="tel:+48577164867">+48 577 164 867</a>
+                </li>
+            </ul>
+        </address>
+    </header>
+    <main>
+        <!-- Baner 1 -->
+        <section class="order-service-wraper full-screan">
+            <div class="container full-screan-body">
+                <div class="full-screan-title">
+                    <h1 class="ord-ser-ban-title">Effective Solutions for Your Business</h1>
+                    <button class="order-button"><span>Order Service</span></button>
+                </div>
+
+                <video autoplay muted loop class="full-screan-video">
+                    <source src="video/tim-background.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <!-- FEATURES 2 -->
+        <section class="section-about">
+            <h2 class="about-title">O firmie</h2>
+            <div class="container about-cont">
+                <p class="about-desc">Nasza firma działa od 2005 roku. Od początku działalności założyliśmy, że
+                    będzie to niewielka
+                    firma rodzinna. Takie
+                    podejście gwarantuje nam uzyskanie elastyczności w kontaktach z osobami poszukującymi dobrego
+                    rozwiązania w zakresie
+                    klimatyzacji. Do każdego klienta podchodzimy indywidualnie, co pozwala na 100% realizację jego
+                    potrzeb i oczekiwań.
+                    Dzięki bogatemu doświadczeniu, które zdobyliśmy na warszawskim rynku, doradzimy Państwu, jak w
+                    optymalny sposób
+                    wykorzystać przeznaczone na budowę czy remont środki, tak aby nie przepłacić i cieszyć się
+                    komfortem jakości przez długi
+                    czas. Przygotowaliśmy też ofertę dla firm planujących zakup urządzenia klimatyzacyjnego.</p>
+                <img class="img-profile" src="https://klima-bud.pl/wp-content/uploads/2020/05/o-firmie-klima.jpg"
+                    alt="">
+            </div>
+
+        </section>
+
+
+    </main>
+    <!-- Footer -->
+    <footer></footer>
+    <!-- Modal window -->
 
 </body>
 
